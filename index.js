@@ -9,11 +9,11 @@ import crypto from 'crypto';
 // —————————————————————————————————
 //  Настройки: замените ключи на ваши
 // —————————————————————————————————
-const SALUTE_AUTH_KEY  = 'NTZhYWNhZGMtOWI5YS00NmMxLTk2MTUtZmY5NjFkNWNmOTYwOjA3Y2ZmYWI4LTBlMWMtNDlkNi05ZTdhLTA4ZTZlMjYwNGZiNQ==';
+const SALUTE_AUTH_KEY  = 'Ваш_Токен_Sberbank';
 const SALUTE_OAUTH_URL = 'https://ngw.devices.sberbank.ru:9443/api/v2/oauth';
 const SALUTE_STT_URL   = 'https://smartspeech.sber.ru/rest/v1/speech:recognize';
 const SALUTE_TTS_URL   = 'https://smartspeech.sber.ru/rest/v1/text:synthesize';
-const OWM_API_KEY      = 'f7e25b9ecf6718c0f7ee7d805a8173ea';
+const OWM_API_KEY      = 'Ваш_Токен_OpenWeather';
 const CITY_CSV_PATH    = 'UTF-8_Q_CITY.csv';
 
 const agent = new https.Agent({ rejectUnauthorized: false });
